@@ -18,7 +18,7 @@ public class Queryexec {
                 " FILTER (lang(?lbl) = 'en').\n" +
                 "    FILTER regex((?indus) ,\""+sect+"+?\").\n" +
                 "}\n" +
-                "LIMIT 30 ";
+                "LIMIT 40 ";
 
         QueryEngineHTTP qe = new QueryEngineHTTP(service, query);
          ResultSet rs = qe.execSelect();

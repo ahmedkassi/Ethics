@@ -27,7 +27,7 @@ public class DictionaryGenerator {
     List<String> wordsofclassfort;
     public static String PATH = "C:\\Users\\Ahmed\\Desktop\\dataset";
 DictionaryGenerator(){
- this.wordsofclassfaible = getNormalizedWordsOfClass(PATH,MoralDegree.FAIBLE.toString());
+this.wordsofclassfaible = getNormalizedWordsOfClass(PATH,MoralDegree.FAIBLE.toString());
     this.wordsofclassfort = getNormalizedWordsOfClass(PATH,MoralDegree.FORT.toString());
    this.wordsofclassmoyen = getNormalizedWordsOfClass(PATH,MoralDegree.MOYEN.toString());
 }
@@ -80,27 +80,23 @@ DictionaryGenerator(){
         }
         return lemmas;
     }
-    public void createDataset(String path) throws TransformerException, ParserConfigurationException {
+    public static void createDataset() throws TransformerException, ParserConfigurationException {
         DocumentBuilderFactory dcfactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder documentBuilder = dcfactory.newDocumentBuilder();
         org.w3c.dom.Document document = documentBuilder.newDocument();
         org.w3c.dom.Element root = document.createElement("companies");
         document.appendChild(root);
-        String[] domainesfort = {"Health_care", "Electric_vehicle", "Artificial_intelligence", "Education", "Solar_energy", "Pharmaceutical_company", "Health_Care", "Renewable_energies"
+       /* String[] domaines = {"Health_care", "Electric_vehicle", "Artificial_intelligence", "Education", "Solar_energy", "Pharmaceutical_company", "Health_Care", "Renewable_energies"
                 , "Renewable_Fuels", "Renewable_Products", "Renewable_Chemicals", "Green_technology", "Green_Energy", "Environmental_protection", "Animal_Welfare", "Animal_Safety", "Emergency_services", "Human_rights", "Climate_control", "Health_care_in_the_United_States", "Energy_conservation", "Islamic_Finance", "Islamic_Development_Bank"
                 , "Islamic_banking", "Islamic_Banking_Software", "Sustainable_development", "Sustainable_Agriculture", "Cancer_research", "Antivirus_software", "Waste_Management", "Social_action", "Student"
-                , "Green_Building", "Green_enterprise", "Green_technology", "Green_economy", "Electric_bus"};
-        String[] domainesfaibles = {"Alcoholic_beverage","Tobacco_industries","Petroleum_industries","Pulp_and_Paper","Heavy_equipment_(construction)","Heavy_equipment","Paper","Mining","Nightclub","Oil_and_Gasoline","Tobacco","Coal_Mining","Sex_industries","Internal_combustion_engine","Defense_(military)","Paper_industries","Petroleum"
-                ,"Oil_and_gas_industries","sex"};
-        String[] domainesmoyen ={"Accounting","Wireless_networking","Books","Marketing","EBooks","Search_Engine_Marketing","Architectural_glass",
-                "Social_Media_Marketing","Computer_hardware","Bank","Investment_Banking","Telecommunications","IT_Engineering","Consultant","Wireless_Development","Mobile_Development","testing",
-                "Software_development","Mobile_games","Management_consulting","Architectural","Watchmaking",
-                "Journalism","Coffee","internet","Market_Research","Civil_engineering","Accounting_systems","Marketing_Research","Information_security","ECommerce","","","","","","",
-                ""
-                ,"","","","","","","","","","","","","","","","","","","","","",""};
+                , "Green_Building", "Green_enterprise", "Green_technology", "Green_economy", "Electric_bus"};*/
 
-        for (int j = 0; j < domainesfort.length; j++) {
-            ResultSet rs = Queryexec.getcompanies(domainesfort[j]);
+    /* String[] domaines = {"Alcoholic_beverage","Tobacco_industries","Petroleum_industries","Pulp_and_Paper","Heavy_equipment_(construction)","Heavy_equipment","Paper","Mining","Nightclub","Oil_and_Gasoline","Tobacco","Coal_Mining","Sex_industries","Internal_combustion_engine","Defense_(military)","Paper_industries","Petroleum"
+                ,"Oil_and_gas_industries","sex","car"};*/
+        String[] domaines = {"Accounting" ,"Books" ,"Marketing" ,"EBooks" ,"Search_Engine_Marketing","Social_Media_Marketing" ,"Computer_hardware" ,"Bank" ,"Investment_Banking" ,"Telecommunications","Software_development" ,"Consultant" ,"Management_consulting" ,"Mobile","game" ,"Wireless" ,"Architectural" ,"Journalism","Publishing:_Internet_&_Books" ,"Market_Research" ,"Accounting_systems" ,"Civil_engineering" ,"Research" ,"Marketing_Research" ,"Financial_services"  ,"ECommerce" ,"Computer_networking" ,"Software_industry" ,"Tourism" ,"Software_services" ,"Coffeehouse","Watch" ,"International_Banking" ,"Architectural_Lighting" ,"Computer" ,"Architectural_lighting_design" ,"Telecommunications" ,"Business-to-business","Music_industry" ,"Public_relations" ,"Banking" ,"Investment_management" ,"Architectural_Design" ,"Direct_Marketing" ,"Coffee_house" ,"Financial_Services" ,"Software" ,"Mobile_Marketing","Software","Digital_distribution","computer","software"};
+
+        for (int j = 0; j < domaines.length; j++) {
+            ResultSet rs = Queryexec.getcompanies(domaines[j]);
             while (rs.hasNext()) {
                 QuerySolution s = rs.nextSolution();
                 org.w3c.dom.Element company = document.createElement("company");
@@ -134,7 +130,7 @@ DictionaryGenerator(){
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
         Transformer transformer = transformerFactory.newTransformer();
         DOMSource domSource = new DOMSource(document);
-        StreamResult streamResult = new StreamResult(new File("C:\\Users\\Ahmed\\Desktop\\dataset2\\fort.xml"));
+        StreamResult streamResult = new StreamResult(new File("C:\\Users\\Ahmed\\Desktop\\dataset2\\moyen.xml"));
         transformer.transform(domSource, streamResult);
         System.out.println("Done creating XML File");
     }

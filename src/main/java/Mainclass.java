@@ -1,13 +1,17 @@
+import org.apache.jena.base.Sys;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
 
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.TransformerException;
 import java.io.*;
+import java.math.BigDecimal;
 import java.util.*;
 
 public class Mainclass {
     public static void oldmain(String[] args) throws Exception {
-        //try {
-          /*  File inputFile = new File("C:\\Users\\Ahmed\\Desktop\\dataset\\moyen.xml");
+      //  try {
+            /*File inputFile = new File("C:\\Users\\Ahmed\\Desktop\\dataset\\moyen.xml");
             SAXBuilder saxBuilder = new SAXBuilder();
             org.jdom2.Document document = saxBuilder.build(inputFile);
             System.out.println("Root element :" + document.getRootElement().getName());
@@ -16,23 +20,24 @@ public class Mainclass {
             List<org.jdom2.Element> companyList = classElement.getChildren();
             System.out.println("----------------------------");
             HashSet<String> x = new HashSet<String>();*/
-           /* for (int temp = 0; temp < companyList.size(); temp++) {
-                org.jdom2.Element company = companyList.get(temp);*/
+          /*  for (int temp = 0; temp < companyList.size(); temp++) {
+                org.jdom2.Element company = companyList.get(temp);
               /*  System.out.println("\nCurrent Element :"
                         + company.getName());
                 System.out.println("abstract  : "
                         + company.getChild("abstract").getText());
                 System.out.println("products  : "
                         + company.getChild("products").getText());*/
-                 /* x.add(company.getChild("industries").getText()) ;*/
-         /*   }
-            StringBuilder y = new StringBuilder();
-            y.append("String[] domainesmoyen = {");*/
-     /*   for(String s : x){
-
-                System.out.println(s);
-        }*/
-       /* } catch (JDOMException e) {
+                 // x.add(company.getChild("industries").getText()) ;
+          //}
+         // StringBuilder y = new StringBuilder("String[] domainesneutre = {");*/
+       /*for(String s : x){
+                y.append("\""+ s.substring(0,s.lastIndexOf(",")) +"\" ,");
+              //  System.out.println(s.substring(0,s.lastIndexOf(",")));
+        }
+        y.append("};");
+        System.out.print(y);*/
+       /*} catch (JDOMException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
@@ -104,11 +109,20 @@ public class Mainclass {
         }*/
 
     }
+    public static void main(String[] args) throws TransformerException, ParserConfigurationException {
 
-    public static void main(String[] args) {
-        DictionaryGenerator dic = new DictionaryGenerator();
+
+       //DictionaryGenerator.createDataset();
+       DictionaryGenerator dic = new DictionaryGenerator();
         TreeMap<String,ArrayList<Integer>> iid = dic.invertedIndex();
-
+        NaivesBayesClassifier nb = new NaivesBayesClassifier();
+        DocumentModel documenttest = new DocumentModel();
+        documenttest.setContent(Queryexec.getcompanybyname("Toyota"));
+        BigDecimal pb1 = nb.companyProbabilityOfaClass(iid, documenttest.normlizedContent(), 1, dic.getWordsofclassmoyen());
+        BigDecimal pb0= nb.companyProbabilityOfaClass(iid, documenttest.normlizedContent(), 0, dic.getWordsofclassfaible());
+        BigDecimal pb2 = nb.companyProbabilityOfaClass(iid, documenttest.normlizedContent(), 2, dic.getWordsofclassfort());
+        System.out.println(pb2.compareTo(pb1));
+        System.out.println(pb2.compareTo(pb0));
 
     }
 

@@ -41,8 +41,8 @@ public class DocumentModel {
         result.append(industries);
         this.Content = new String(result);
     }
-    public List<String> normlizedContent (String content){
-    return DictionaryGenerator.normalize2(content);
+    public List<String> normlizedContent (){
+    return DictionaryGenerator.normalize2(this.Content);
     }
 }
 
