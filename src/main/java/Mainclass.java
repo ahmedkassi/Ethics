@@ -1,3 +1,4 @@
+import org.apache.commons.logging.impl.SLF4JLog;
 import org.apache.jena.base.Sys;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
@@ -110,20 +111,65 @@ public class Mainclass {
 
     }
     public static void main(String[] args) throws TransformerException, ParserConfigurationException {
-
-
+    NaivesBayesClassifierTest test = new NaivesBayesClassifierTest();
+   // test.createValidationSet();
+    Map<String,String> testcompanies = test.getValidationset();
+     int vrai=0 ,faux =0;
        //DictionaryGenerator.createDataset();
-       DictionaryGenerator dic = new DictionaryGenerator();
+     DictionaryGenerator dic = new DictionaryGenerator();
         TreeMap<String,ArrayList<Integer>> iid = dic.invertedIndex();
         NaivesBayesClassifier nb = new NaivesBayesClassifier();
         DocumentModel documenttest = new DocumentModel();
-        documenttest.setContent(Queryexec.getcompanybyname("Toyota"));
+       for(String key : testcompanies.keySet()){
+        String comapnyname =key;
+        documenttest.setContent(Queryexec.getcompanybyname(comapnyname));
         BigDecimal pb1 = nb.companyProbabilityOfaClass(iid, documenttest.normlizedContent(), 1, dic.getWordsofclassmoyen());
         BigDecimal pb0= nb.companyProbabilityOfaClass(iid, documenttest.normlizedContent(), 0, dic.getWordsofclassfaible());
         BigDecimal pb2 = nb.companyProbabilityOfaClass(iid, documenttest.normlizedContent(), 2, dic.getWordsofclassfort());
-        System.out.println(pb2.compareTo(pb1));
-        System.out.println(pb2.compareTo(pb0));
+       String classif =Maxproba(comapnyname,pb0,pb1,pb2) ;
+       String truevalue ="";
+        if(classif.equals(testcompanies.get(key))){
+            vrai++;
+        }
+        else
+        {
+            truevalue = testcompanies.get(key);
+         System.out.println(key+"  " +truevalue+"  "+classif);
+            faux++;}
+       }
+        System.out.println("le nombre des test vraies est : "+vrai+" avec une portion de  "+vrai/20);
+        System.out.println("le nombre des test faux est : "+faux+" avec une portion de  "+faux/20);
+       /* System.out.println(pb0.compareTo(pb1));
+        System.out.println(pb0.compareTo(pb2));*/
 
+
+    }
+    public static String Maxproba(String company ,BigDecimal p0, BigDecimal p1,BigDecimal p2){
+    String result = null;
+        switch (p0.compareTo(p1)){
+    case 1 : //p0>p1
+        int r = p0.compareTo(p2);
+    if(r>0)//p0>p2 and p0>p1
+        result = "faible";
+         //System.out.println("company: "+company+" is classified as bad moralclass");
+    else // p2>p0 and p0>p1
+       if(r<0)
+           result = "fort";
+          // System.out.println("company: "+company+" is classified as good moral class ");
+        break;
+    case -1 : // p0<p1
+       int r1 = p1.compareTo(p2);
+       //p0<p1 and p1>p2
+       if(r1>0)
+           result = "neutre";
+           //System.out.println("company: "+company+" is classified as neutral ");
+       else
+           //p0<p1 and p2>p1
+           result = "fort";
+           //System.out.println("company: "+company+" is classified as good");
+        break;
+}
+return result;
     }
 
 /*public static HashMap<String, Integer> wordfrequency(String pathOfoutput, List<String> wordsOfClass){

@@ -91,9 +91,18 @@ this.wordsofclassfaible = getNormalizedWordsOfClass(PATH,MoralDegree.FAIBLE.toSt
                 , "Islamic_banking", "Islamic_Banking_Software", "Sustainable_development", "Sustainable_Agriculture", "Cancer_research", "Antivirus_software", "Waste_Management", "Social_action", "Student"
                 , "Green_Building", "Green_enterprise", "Green_technology", "Green_economy", "Electric_bus"};*/
 
-    /* String[] domaines = {"Alcoholic_beverage","Tobacco_industries","Petroleum_industries","Pulp_and_Paper","Heavy_equipment_(construction)","Heavy_equipment","Paper","Mining","Nightclub","Oil_and_Gasoline","Tobacco","Coal_Mining","Sex_industries","Internal_combustion_engine","Defense_(military)","Paper_industries","Petroleum"
-                ,"Oil_and_gas_industries","sex","car"};*/
-        String[] domaines = {"Accounting" ,"Books" ,"Marketing" ,"EBooks" ,"Search_Engine_Marketing","Social_Media_Marketing" ,"Computer_hardware" ,"Bank" ,"Investment_Banking" ,"Telecommunications","Software_development" ,"Consultant" ,"Management_consulting" ,"Mobile","game" ,"Wireless" ,"Architectural" ,"Journalism","Publishing:_Internet_&_Books" ,"Market_Research" ,"Accounting_systems" ,"Civil_engineering" ,"Research" ,"Marketing_Research" ,"Financial_services"  ,"ECommerce" ,"Computer_networking" ,"Software_industry" ,"Tourism" ,"Software_services" ,"Coffeehouse","Watch" ,"International_Banking" ,"Architectural_Lighting" ,"Computer" ,"Architectural_lighting_design" ,"Telecommunications" ,"Business-to-business","Music_industry" ,"Public_relations" ,"Banking" ,"Investment_management" ,"Architectural_Design" ,"Direct_Marketing" ,"Coffee_house" ,"Financial_Services" ,"Software" ,"Mobile_Marketing","Software","Digital_distribution","computer","software"};
+     /*String[] domaines = {"Alcoholic_beverage","Tobacco_industries","Petroleum_industries","Pulp_and_Paper","Heavy_equipment_(construction)","Heavy_equipment","Paper","Mining","Nightclub","Oil_and_Gasoline","Tobacco","Coal_Mining","Sex_industries","Internal_combustion_engine","Defense_(military)","Paper_industries","Petroleum"
+                ,"Oil_and_gas_industries","sex","car","Pornography","Porn"};*/
+       String[] domaines = {"Accounting","Marketing" ,"Electronic","Rental" ,"Computer" ,"Bank" ,"Investment_Banking"
+               ,"Software" ,"Heavy_equipment_(construction)" ,"Financial_Services" ,"Mobile","game" ,"Wireless" ,"Architectural" ,"Journalism"
+               ,"Semiconductor" ,"rail" ,"Civil_engineering" ,"Home_improvement"
+               ,"Information_Technology" ,"Financial_services"  ,"ECommerce" ,"Computer_networking" ,"Software_industry" ,"Tourism" ,"Software_services"
+               ,"Coffeehouse","International_Banking" ,"Architectural_Lighting","Computer"  ,"Telecommunication" ,"Business-to-business","Public_relations"
+               ,"Banking" ,"Investment_management"  ,"Coffee_house" ,"Financial_Services" ,"Software" ,"Software",
+               "Digital_distribution","computer",
+               "software","Music","Retail","Video_game","Entertainment","Hardware_store","Food","Integrated_circuit_design"
+               ,"Commercial_broadcasting"
+       };
 
         for (int j = 0; j < domaines.length; j++) {
             ResultSet rs = Queryexec.getcompanies(domaines[j]);
