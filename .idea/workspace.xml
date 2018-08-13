@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68e4f21c-b44f-47ad-9597-5bdc9238e2a2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DictionaryGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DocumentModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Mainclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/MoralDegree.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/NaivesBayesClassifier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Queryexec.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DictionaryGenerator.class" afterPath="$PROJECT_DIR$/target/classes/DictionaryGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Mainclass.class" afterPath="$PROJECT_DIR$/target/classes/Mainclass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Queryexec.class" afterPath="$PROJECT_DIR$/target/classes/Queryexec.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DictionaryGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/DictionaryGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DocumentModel.java" afterPath="$PROJECT_DIR$/src/main/java/DocumentModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Mainclass.java" afterPath="$PROJECT_DIR$/src/main/java/Mainclass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/NaivesBayesClassifier.java" afterPath="$PROJECT_DIR$/src/main/java/NaivesBayesClassifier.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Queryexec.java" afterPath="$PROJECT_DIR$/src/main/java/Queryexec.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,18 +19,35 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ethicalproc" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Mainclass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Mainclass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="124" column="44" lean-forward="false" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
+            <state relative-caret-position="192">
+              <caret line="120" column="63" lean-forward="true" selection-start-line="120" selection-start-column="63" selection-end-line="120" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#oldmain#0;class#Mainclass#0" expanded="false" />
-                <marker date="1533848940373" expanded="false" signature="5931:5948" ph="&lt;~&gt;" />
-                <marker date="1533848940373" expanded="false" signature="6121:6129" ph="&lt;~&gt;" />
+                <marker date="1534200629453" expanded="false" signature="7725:7742" ph="&lt;~&gt;" />
+                <marker date="1534200629453" expanded="false" signature="7915:7923" ph="&lt;~&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NaivesBayesClassifierTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NaivesBayesClassifierTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4526#4527#0" expanded="true" />
+                <element signature="e#4562#4563#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,13 +56,10 @@
       <file leaf-file-name="NaivesBayesClassifier.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NaivesBayesClassifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+            <state relative-caret-position="510">
+              <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#547#564#0" expanded="true" />
-                <element signature="e#612#620#0" expanded="true" />
-                <element signature="e#685#693#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +68,8 @@
       <file leaf-file-name="Queryexec.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Queryexec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="238">
+              <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -69,12 +78,10 @@
       <file leaf-file-name="DocumentModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DocumentModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="250">
+              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1645#1646#0" expanded="true" />
-                <element signature="e#1708#1709#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,21 +90,18 @@
       <file leaf-file-name="DictionaryGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1303">
-              <caret line="132" column="105" lean-forward="false" selection-start-line="132" selection-start-column="105" selection-end-line="132" selection-end-column="105" />
+            <state relative-caret-position="-216">
+              <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#DictionaryGenerator#0;class#DictionaryGenerator#0" expanded="false" />
                 <element signature="method#getNormalizedWordsOfClass#0;class#DictionaryGenerator#0" expanded="false" />
                 <element signature="method#normalize#0;class#DictionaryGenerator#0" expanded="false" />
                 <element signature="method#normalize2#0;class#DictionaryGenerator#0" expanded="false" />
                 <element signature="method#setWordsofclassfaible#0;class#DictionaryGenerator#0" expanded="false" />
                 <element signature="method#setWordsofclassmoyen#0;class#DictionaryGenerator#0" expanded="false" />
-                <element signature="e#9415#9416#0" expanded="true" />
-                <element signature="e#9456#9457#0" expanded="true" />
-                <element signature="e#9505#9506#0" expanded="true" />
-                <element signature="e#9544#9545#0" expanded="true" />
-                <element signature="e#9594#9595#0" expanded="true" />
-                <element signature="e#9634#9635#0" expanded="true" />
+                <element signature="method#invertedIndex#0;class#DictionaryGenerator#0" expanded="false" />
+                <element signature="method#wordfrequency#0;class#DictionaryGenerator#0" expanded="false" />
                 <element signature="method#getlocalname#0;class#DictionaryGenerator#0" expanded="false" />
               </folding>
             </state>
@@ -120,6 +124,20 @@
       <find>petroleum</find>
       <find>set</find>
       <find>getlocalname</find>
+      <find>Watch</find>
+      <find>broad</find>
+      <find>Financial_services</find>
+      <find>Electronic</find>
+      <find>Telecommunication</find>
+      <find>music</find>
+      <find>Investment_management</find>
+      <find>Architectur</find>
+      <find>Accounting</find>
+      <find>Metals</find>
+      <find>Marketing</find>
+      <find>Mining</find>
+      <find>finance</find>
+      <find>validationset</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,9 +155,10 @@
         <option value="$PROJECT_DIR$/src/main/java/MoralDegree.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tst.java" />
         <option value="$PROJECT_DIR$/src/main/java/DocumentModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Queryexec.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DictionaryGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/NaivesBayesClassifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DictionaryGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Queryexec.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NaivesBayesClassifierTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mainclass.java" />
       </list>
     </option>
@@ -150,10 +169,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="width" value="1378" />
-    <option name="height" value="754" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="536" />
+    <option name="width" value="837" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -170,10 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,6 +225,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,6 +359,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="68e4f21c-b44f-47ad-9597-5bdc9238e2a2" name="Default" comment="" />
@@ -352,16 +380,18 @@
       <workItem from="1533399256805" duration="127000" />
       <workItem from="1533485177386" duration="10402000" />
       <workItem from="1533583234711" duration="6871000" />
-      <workItem from="1533825229820" duration="15714000" />
+      <workItem from="1533825229820" duration="16064000" />
+      <workItem from="1534000237895" duration="5490000" />
+      <workItem from="1534098655724" duration="9244000" />
+      <workItem from="1534197560932" duration="3661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82353000" />
+    <option name="totallyTimeSpent" value="101098000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -370,19 +400,19 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967638" sideWeight="0.5718608" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6585761" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41100323" sideWeight="0.53933436" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41100323" sideWeight="0.53933436" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.02496218" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967638" sideWeight="0.42813918" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -429,24 +459,23 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="48" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Mainclass.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="57" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Queryexec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MoralDegree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -456,8 +485,6 @@
           <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1645#1646#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -468,17 +495,14 @@
           <caret line="248" column="13" lean-forward="false" selection-start-line="242" selection-start-column="10" selection-end-line="248" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#DictionaryGenerator#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#getNormalizedWordsOfClass#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#normalize#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#normalize2#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#setWordsofclassfaible#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#setWordsofclassmoyen#0;class#DictionaryGenerator#0" expanded="false" />
-            <element signature="e#9415#9416#0" expanded="true" />
-            <element signature="e#9456#9457#0" expanded="true" />
-            <element signature="e#9505#9506#0" expanded="true" />
-            <element signature="e#9544#9545#0" expanded="true" />
-            <element signature="e#9594#9595#0" expanded="true" />
-            <element signature="e#9634#9635#0" expanded="true" />
+            <element signature="method#invertedIndex#0;class#DictionaryGenerator#0" expanded="false" />
+            <element signature="method#wordfrequency#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#getlocalname#0;class#DictionaryGenerator#0" expanded="false" />
           </folding>
         </state>
@@ -490,9 +514,6 @@
           <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#547#564#0" expanded="true" />
-            <element signature="e#612#620#0" expanded="true" />
-            <element signature="e#685#693#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -501,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,8 +532,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#oldmain#0;class#Mainclass#0" expanded="false" />
-            <marker date="1533848940373" expanded="false" signature="5931:5948" ph="&lt;~&gt;" />
-            <marker date="1533848940373" expanded="false" signature="6121:6129" ph="&lt;~&gt;" />
+            <marker date="1534200629453" expanded="false" signature="7725:7742" ph="&lt;~&gt;" />
+            <marker date="1534200629453" expanded="false" signature="7915:7923" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -530,7 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -540,17 +559,14 @@
           <caret line="85" column="162" lean-forward="false" selection-start-line="85" selection-start-column="162" selection-end-line="85" selection-end-column="162" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#DictionaryGenerator#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#getNormalizedWordsOfClass#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#normalize#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#normalize2#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#setWordsofclassfaible#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#setWordsofclassmoyen#0;class#DictionaryGenerator#0" expanded="false" />
-            <element signature="e#9415#9416#0" expanded="true" />
-            <element signature="e#9456#9457#0" expanded="true" />
-            <element signature="e#9505#9506#0" expanded="true" />
-            <element signature="e#9544#9545#0" expanded="true" />
-            <element signature="e#9594#9595#0" expanded="true" />
-            <element signature="e#9634#9635#0" expanded="true" />
+            <element signature="method#invertedIndex#0;class#DictionaryGenerator#0" expanded="false" />
+            <element signature="method#wordfrequency#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#getlocalname#0;class#DictionaryGenerator#0" expanded="false" />
           </folding>
         </state>
@@ -560,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -576,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,17 +600,14 @@
           <caret line="85" column="162" lean-forward="false" selection-start-line="85" selection-start-column="162" selection-end-line="85" selection-end-column="162" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#DictionaryGenerator#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#getNormalizedWordsOfClass#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#normalize#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#normalize2#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#setWordsofclassfaible#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#setWordsofclassmoyen#0;class#DictionaryGenerator#0" expanded="false" />
-            <element signature="e#9415#9416#0" expanded="true" />
-            <element signature="e#9456#9457#0" expanded="true" />
-            <element signature="e#9505#9506#0" expanded="true" />
-            <element signature="e#9544#9545#0" expanded="true" />
-            <element signature="e#9594#9595#0" expanded="true" />
-            <element signature="e#9634#9635#0" expanded="true" />
+            <element signature="method#invertedIndex#0;class#DictionaryGenerator#0" expanded="false" />
+            <element signature="method#wordfrequency#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#getlocalname#0;class#DictionaryGenerator#0" expanded="false" />
           </folding>
         </state>
@@ -609,8 +620,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#oldmain#0;class#Mainclass#0" expanded="false" />
-            <marker date="1533848940373" expanded="false" signature="5931:5948" ph="&lt;~&gt;" />
-            <marker date="1533848940373" expanded="false" signature="6121:6129" ph="&lt;~&gt;" />
+            <marker date="1534200629453" expanded="false" signature="7725:7742" ph="&lt;~&gt;" />
+            <marker date="1534200629453" expanded="false" signature="7915:7923" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -619,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,17 +646,14 @@
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#DictionaryGenerator#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#getNormalizedWordsOfClass#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#normalize#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#normalize2#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#setWordsofclassfaible#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#setWordsofclassmoyen#0;class#DictionaryGenerator#0" expanded="false" />
-            <element signature="e#9415#9416#0" expanded="true" />
-            <element signature="e#9456#9457#0" expanded="true" />
-            <element signature="e#9505#9506#0" expanded="true" />
-            <element signature="e#9544#9545#0" expanded="true" />
-            <element signature="e#9594#9595#0" expanded="true" />
-            <element signature="e#9634#9635#0" expanded="true" />
+            <element signature="method#invertedIndex#0;class#DictionaryGenerator#0" expanded="false" />
+            <element signature="method#wordfrequency#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#getlocalname#0;class#DictionaryGenerator#0" expanded="false" />
           </folding>
         </state>
@@ -656,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,8 +673,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#oldmain#0;class#Mainclass#0" expanded="false" />
-            <marker date="1533848940373" expanded="false" signature="5931:5948" ph="&lt;~&gt;" />
-            <marker date="1533848940373" expanded="false" signature="6121:6129" ph="&lt;~&gt;" />
+            <marker date="1534200629453" expanded="false" signature="7725:7742" ph="&lt;~&gt;" />
+            <marker date="1534200629453" expanded="false" signature="7915:7923" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -677,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,8 +693,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#oldmain#0;class#Mainclass#0" expanded="false" />
-            <marker date="1533848940373" expanded="false" signature="5931:5948" ph="&lt;~&gt;" />
-            <marker date="1533848940373" expanded="false" signature="6121:6129" ph="&lt;~&gt;" />
+            <marker date="1534200629453" expanded="false" signature="7725:7742" ph="&lt;~&gt;" />
+            <marker date="1534200629453" expanded="false" signature="7915:7923" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -698,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,8 +728,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#oldmain#0;class#Mainclass#0" expanded="false" />
-            <marker date="1533848940373" expanded="false" signature="5931:5948" ph="&lt;~&gt;" />
-            <marker date="1533848940373" expanded="false" signature="6121:6129" ph="&lt;~&gt;" />
+            <marker date="1534200629453" expanded="false" signature="7725:7742" ph="&lt;~&gt;" />
+            <marker date="1534200629453" expanded="false" signature="7915:7923" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -735,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,8 +748,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#oldmain#0;class#Mainclass#0" expanded="false" />
-            <marker date="1533848940373" expanded="false" signature="5931:5948" ph="&lt;~&gt;" />
-            <marker date="1533848940373" expanded="false" signature="6121:6129" ph="&lt;~&gt;" />
+            <marker date="1534200629453" expanded="false" signature="7725:7742" ph="&lt;~&gt;" />
+            <marker date="1534200629453" expanded="false" signature="7915:7923" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -811,7 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,7 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,7 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -843,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -859,9 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#2055#2056#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,17 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar!/org/jdom2/Element.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="585" column="0" lean-forward="false" selection-start-line="585" selection-start-column="0" selection-end-line="585" selection-end-column="0" />
-          <folding>
-            <element signature="e#18085#18086#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,42 +870,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="657" column="0" lean-forward="false" selection-start-line="657" selection-start-column="0" selection-end-line="657" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar!/org/jdom2/Element.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NaivesBayesClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
-            <element signature="e#1573#1574#0" expanded="true" />
-            <element signature="e#1614#1615#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DocumentModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="250">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1645#1646#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1303">
-          <caret line="132" column="105" lean-forward="false" selection-start-line="132" selection-start-column="105" selection-end-line="132" selection-end-column="105" />
+        <state relative-caret-position="-216">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#DictionaryGenerator#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#getNormalizedWordsOfClass#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#normalize#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#normalize2#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#setWordsofclassfaible#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#setWordsofclassmoyen#0;class#DictionaryGenerator#0" expanded="false" />
-            <element signature="e#9415#9416#0" expanded="true" />
-            <element signature="e#9456#9457#0" expanded="true" />
-            <element signature="e#9505#9506#0" expanded="true" />
-            <element signature="e#9544#9545#0" expanded="true" />
-            <element signature="e#9594#9595#0" expanded="true" />
-            <element signature="e#9634#9635#0" expanded="true" />
+            <element signature="method#invertedIndex#0;class#DictionaryGenerator#0" expanded="false" />
+            <element signature="method#wordfrequency#0;class#DictionaryGenerator#0" expanded="false" />
             <element signature="method#getlocalname#0;class#DictionaryGenerator#0" expanded="false" />
           </folding>
         </state>
@@ -930,34 +921,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Queryexec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="238">
+          <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NaivesBayesClassifier.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/NaivesBayesClassifierTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state relative-caret-position="209">
+          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#547#564#0" expanded="true" />
-            <element signature="e#612#620#0" expanded="true" />
-            <element signature="e#685#693#0" expanded="true" />
+            <element signature="e#4526#4527#0" expanded="true" />
+            <element signature="e#4562#4563#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Mainclass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="124" column="44" lean-forward="false" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
+        <state relative-caret-position="192">
+          <caret line="120" column="63" lean-forward="true" selection-start-line="120" selection-start-column="63" selection-end-line="120" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#oldmain#0;class#Mainclass#0" expanded="false" />
-            <marker date="1533848940373" expanded="false" signature="5931:5948" ph="&lt;~&gt;" />
-            <marker date="1533848940373" expanded="false" signature="6121:6129" ph="&lt;~&gt;" />
+            <marker date="1534200629453" expanded="false" signature="7725:7742" ph="&lt;~&gt;" />
+            <marker date="1534200629453" expanded="false" signature="7915:7923" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
